@@ -1,0 +1,15 @@
+C:\Users\jacob\OneDrive\Documents\cinnamon&sugar\bin\Debug\net6.0\cinnamon&sugar.exe
+C:\Users\jacob\OneDrive\Documents\cinnamon&sugar\bin\Debug\net6.0\cinnamon&sugar.deps.json
+C:\Users\jacob\OneDrive\Documents\cinnamon&sugar\bin\Debug\net6.0\cinnamon&sugar.runtimeconfig.json
+C:\Users\jacob\OneDrive\Documents\cinnamon&sugar\bin\Debug\net6.0\cinnamon&sugar.dll
+C:\Users\jacob\OneDrive\Documents\cinnamon&sugar\bin\Debug\net6.0\cinnamon&sugar.pdb
+C:\Users\jacob\OneDrive\Documents\cinnamon&sugar\obj\Debug\net6.0\cinnamon&sugar.csproj.AssemblyReference.cache
+C:\Users\jacob\OneDrive\Documents\cinnamon&sugar\obj\Debug\net6.0\cinnamon&sugar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jacob\OneDrive\Documents\cinnamon&sugar\obj\Debug\net6.0\cinnamon&sugar.AssemblyInfoInputs.cache
+C:\Users\jacob\OneDrive\Documents\cinnamon&sugar\obj\Debug\net6.0\cinnamon&sugar.AssemblyInfo.cs
+C:\Users\jacob\OneDrive\Documents\cinnamon&sugar\obj\Debug\net6.0\cinnamon&sugar.csproj.CoreCompileInputs.cache
+C:\Users\jacob\OneDrive\Documents\cinnamon&sugar\obj\Debug\net6.0\cinnamon&sugar.dll
+C:\Users\jacob\OneDrive\Documents\cinnamon&sugar\obj\Debug\net6.0\refint\cinnamon&sugar.dll
+C:\Users\jacob\OneDrive\Documents\cinnamon&sugar\obj\Debug\net6.0\cinnamon&sugar.pdb
+C:\Users\jacob\OneDrive\Documents\cinnamon&sugar\obj\Debug\net6.0\cinnamon&sugar.genruntimeconfig.cache
+C:\Users\jacob\OneDrive\Documents\cinnamon&sugar\obj\Debug\net6.0\ref\cinnamon&sugar.dll
