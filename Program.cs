@@ -6,15 +6,13 @@ namespace MyApp // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ahhh You seek the grail? ");
-            Console.WriteLine("You must answer my riddles three! ");
-            Console.WriteLine("What is your name? ");
-            string name = Console.ReadLine();
-            Console.WriteLine("What is your quest? ");
-            string quest = Console.ReadLine();
-            Console.WriteLine("What is your Favorite Color? ");
+            Console.WriteLine("What is your first name? ");
+            string fname = Console.ReadLine();
+            Console.WriteLine("What is your last name? ");
+            string lname = Console.ReadLine();
+            Console.WriteLine($"Ah, so your name is {lname}, {fname} {lname}.");
             string color = Console.ReadLine();
-            Console.WriteLine("You may go.");
+            Console.WriteLine($"I don't expect you talk Mr/Ms {lname}, I expect you to die.");
         }
     }
 }
