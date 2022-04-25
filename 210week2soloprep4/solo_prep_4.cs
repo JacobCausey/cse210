@@ -8,10 +8,12 @@ namespace solo_prep_4.cs
         {
             List<int> numbers = new List<int>();
             Console.WriteLine("Enter a list of numbers, type 0 when finished.");
+            numbers.Add(int.Parse(Console.ReadLine()));
+                        
             foreach (int number in numbers)
-{
-    Console.WriteLine(number);
-}
+            {
+                Console.WriteLine(number);
+            }
             
         }
     }
