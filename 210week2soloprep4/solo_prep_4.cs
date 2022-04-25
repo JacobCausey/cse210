@@ -8,13 +8,10 @@ namespace solo_prep_4.cs
         {
             List<int> numbers = new List<int>();
             Console.WriteLine("Enter a list of numbers, type 0 when finished.");
-            numbers.Add(int.Parse(Console.ReadLine()));
-                        
-            foreach (int number in numbers)
-            {
-                Console.WriteLine(number);
-            }
-            
+            Console.WriteLine("Enter Number: "); numbers.Add(int.Parse(Console.ReadLine()));
+            Console.WriteLine($"The Sum is: {numbers.Sum()}");
+            Console.WriteLine($"The average is: {numbers.Average()}");
+            Console.WriteLine($"The largest number is: {numbers.Max()}");
         }
     }
 }
