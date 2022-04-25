@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace Program
+namespace solo_prep_4.cs
 {
     internal static class Program
     {
