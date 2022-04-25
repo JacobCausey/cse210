@@ -6,27 +6,27 @@ namespace solo_prep_3
     {
         static void Main(string[] args)
         {
-            //Create the Number:
+            // For Parts 1 and 2, where the user specified the number...
+            // Console.Write("What is the magic number? ");
+            // int magicNumber = int.Parse(Console.ReadLine());
+            
+            // For Part 3, where we use a random number
             Random randomGenerator = new Random();
-            int number = randomGenerator.Next(1, 101);
-            Console.WriteLine("What is the magic number?");
+            int magicNumber = randomGenerator.Next(1, 101);
+
             int guess = -1;
 
-            //Take the user guess value:
-
-            while(guess != number)
+            // We could also use a do-while loop here...
+            while (guess != magicNumber)
             {
-                Console.WriteLine("What is your guess?");
-                guess = Console.Readline();
+                Console.Write("What is your guess? ");
+                guess = int.Parse(Console.ReadLine());
 
-
-                //Evaluate if the guess is correct:
-
-                if (number > guess)
+                if (magicNumber > guess)
                 {
                     Console.WriteLine("Higher");
                 }
-                else if (number < guess)
+                else if (magicNumber < guess)
                 {
                     Console.WriteLine("Lower");
                 }
@@ -34,7 +34,8 @@ namespace solo_prep_3
                 {
                     Console.WriteLine("You guessed it!");
                 }
-            }
+
+            }        
         }
     }
 }
