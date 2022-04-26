@@ -12,16 +12,16 @@ namespace solo_prep_4.cs
 
             // There needs to be a for or do loop to add numbers:
             int number = -1;
-            while (number != 0)
+            do 
             {
                 Console.WriteLine("Enter Number: ");
                 numbers.Add(int.Parse(Console.ReadLine()));
-            }
+            } while (number != 0);
 
-            /*Then I'll just use some writelines to drop the needed thingies:
+            //Then I'll just use some writelines to drop the needed thingies:
             Console.WriteLine($"The Sum is: {numbers.Sum()}");
             Console.WriteLine($"The average is: {numbers.Average()}");
-            Console.WriteLine($"The largest number is: {numbers.Max()}");*/
+            Console.WriteLine($"The largest number is: {numbers.Max()}");
         }
     }
 }
