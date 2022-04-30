@@ -9,15 +9,14 @@ namespace ticTacToe
         {
             List<string> spaces =GetSpaces();
             string playerStatus = "x";
+            
 
             while(!IsItOver(spaces))
             {
                 DisplayBoard(spaces);
-                
                 int choice = GetMoveChoice(playerStatus);
                 PlaceChoice(spaces,choice,playerStatus);
             }
-
             DisplayBoard(spaces);
             Console.WriteLine("GG,no re!");
         }
@@ -85,16 +84,14 @@ namespace ticTacToe
                 }
                 return !foundSpaces;
             }
-            static string GetNextPlayer(string playerStatus)
+            /*static string GetNextPlayer(string playerStatus)
             {
-                string nextPlayer = "x";
-
                 if (playerStatus == "x")
                 {
-                    nextPlayer = "o";
+                    playerStatus = "o";
                 } 
-                return nextPlayer;
-            }
+                return playerStatus;
+            }*/
             static int GetMoveChoice(string playerStatus)
             {
                 Console.WriteLine($"{playerStatus} Where would you like to play? ");
@@ -108,6 +105,7 @@ namespace ticTacToe
                 int index = choice -1;
 
                spaces[index] = playerStatus;
+
             }
     }
 }
