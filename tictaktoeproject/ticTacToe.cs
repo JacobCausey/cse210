@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 //I'm coding this probably the day it's due, mainly due to overload of HW - Jacob Causey
-namespace ticTacTorture 
+namespace ticTacToe 
 {
     internal class Program
     {
@@ -10,7 +10,7 @@ namespace ticTacTorture
             List<string> spaces =GetSpaces();
             string playerStatus = "x";
 
-            while(!GameContinue(spaces))
+            while(!IsItOver(spaces))
             {
                 DisplayBoard(spaces);
                 
@@ -52,18 +52,18 @@ namespace ticTacTorture
                 return over;
             }
 
-            static bool IsWinner(List<string> board, string playerStatus)
+            static bool IsWinner(List<string> spaces, string playerStatus)
             {
                 bool isWinner = false;
 
-            if ((board[0] == playerStatus && board[1] == playerStatus && board[2] == playerStatus)
-                || (board[3] == playerStatus && board[4] == playerStatus && board[5] == playerStatus)
-                || (board[6] == playerStatus && board[7] == playerStatus && board[8] == playerStatus)
-                || (board[0] == playerStatus && board[3] == playerStatus && board[6] == playerStatus)
-                || (board[1] == playerStatus && board[4] == playerStatus && board[7] == playerStatus)
-                || (board[2] == playerStatus && board[5] == playerStatus && board[8] == playerStatus)
-                || (board[0] == playerStatus && board[4] == playerStatus && board[8] == playerStatus)
-                || (board[2] == playerStatus && board[4] == playerStatus && board[6] == playerStatus)
+            if ((spaces[0] == playerStatus && spaces[1] == playerStatus && spaces[2] == playerStatus)
+                || (spaces[3] == playerStatus && spaces[4] == playerStatus && spaces[5] == playerStatus)
+                || (spaces[6] == playerStatus && spaces[7] == playerStatus && spaces[8] == playerStatus)
+                || (spaces[0] == playerStatus && spaces[3] == playerStatus && spaces[6] == playerStatus)
+                || (spaces[1] == playerStatus && spaces[4] == playerStatus && spaces[7] == playerStatus)
+                || (spaces[2] == playerStatus && spaces[5] == playerStatus && spaces[8] == playerStatus)
+                || (spaces[0] == playerStatus && spaces[4] == playerStatus && spaces[8] == playerStatus)
+                || (spaces[2] == playerStatus && spaces[4] == playerStatus && spaces[6] == playerStatus)
                 )
             {
                 isWinner = true;
@@ -71,7 +71,7 @@ namespace ticTacTorture
 
             return isWinner; 
             }
-            static bool IsTie(List<string> board)
+            static bool IsTie(List<string> spaces)
             {
                 bool foundSpaces = false;
 
